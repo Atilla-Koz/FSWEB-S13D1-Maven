@@ -42,6 +42,7 @@ public class Main {
             return -1.0;
         } else {
             return Math.PI * radius * radius;
+            //Math.pow(radius, 2) is the same as radius * radius
         }
     }
 }
