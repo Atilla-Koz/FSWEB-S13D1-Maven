@@ -20,14 +20,28 @@ public class Main {
     }
 
     public static boolean isCatPlaying(boolean isSummer, int temp) {
-     
+        if (isSummer && temp >= 25 && temp <= 45) {
+            return true;
+        } else if (!isSummer && temp >= 25 && temp <= 35) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     public static double area(double width, double height) {
-       
+        if (width < 0 || height < 0) {
+            return -1.0;
+        } else {
+            return width * height;
+        }
     }
 
     public static double area(double radius) {
-       
+        if (radius < 0) {
+            return -1.0;
+        } else {
+            return Math.PI * radius * radius;
+        }
     }
 }
