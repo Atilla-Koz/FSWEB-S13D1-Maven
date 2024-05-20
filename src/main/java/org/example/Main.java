@@ -13,7 +13,7 @@ public class Main {
         } else {
             return false;
         }
-    }//action try try try
+    }//action try try try again
 
     public static boolean hasTeen(int firstAge, int secondAge, int thirdAge) {
        return (firstAge >= 13 && firstAge <= 19) || (secondAge >= 13 && secondAge <= 19) || (thirdAge >= 13 && thirdAge <= 19);
